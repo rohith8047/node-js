@@ -1,0 +1,5 @@
+var fs=require('fs');
+fs.readFile('/home/mtw-12/Desktop/nodejs/helloworls.txt',
+	function(err,context){
+		console.log(err,context)
+});
